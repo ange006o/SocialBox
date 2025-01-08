@@ -13,10 +13,10 @@ Fiuscha="\033[0;35m"
 blue="\033[1;34m"
 nc="\e[0m"
 #ROOT PRIVILEGIES
-if [[ $EUID -ne 0 ]]; then
-        echo -e "$red You don't have Root privilegies, execute the script as root.$nc"
-        exit 1
-fi
+#if [[ $EUID -ne 0 ]]; then
+#        echo -e "$red You don't have Root privilegies, execute the script as root.$nc"
+#        exit 1
+#fi
 #Installation
 sleep 1
 echo -e "Checking Installation $nc"
